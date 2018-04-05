@@ -1,45 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int pedirNumeroPar();
+int getEntero(char* mensaje, char* mensajeError, int minimo,int maximo);
+
+
 int main()
 {
-    int numeroUno;
-    printf("Ingrese su edad\n");
-    scanf("%d",&numeroUno);
-    printf("Ingresaste: %d",numeroUno);
-    return 0;
+    int numero;
+    numero=getEntero("Ingrese su edad","Error, debe ser entre 1 y 199",1,199);
+    printf("en entero ingresado es : %d" ,numero);
 
-    int notaUno;
-    int notaDos;
-    int notaTres;
-    int maximo;
+}
 
+int getEntero(char* mensaje, char* mensajeError, int minimo,int maximo){
 
-    printf("Ingrese una nota del 1 al 10\n");
-    scanf("%d",&notaUno);
-    printf("Ingrese una nota del 1 al 10\n");
-    scanf("%d",&notaDos);
-    printf("Ingrese una nota del 1 al 10\n");
-    scanf("%d",&notaTres);
+    int retorno=-1;
+    do{
+        printf("%s :",mensaje);
+        scanf("%d",&retorno);
+        if(retorno<maximo && retorno>minimo)
+        {
+            break;
+        }
+        printf("%s  \n",mensajeError);
+    }while(0);
 
-
-   if(notaUno>notaDos && notaUno>notaTres)
-   {
-       maximo=notaUno;
-   }
-   else
-    if(notaDos>notaTres)
-    {
-        maximo=notaDos;
-    }
-    else
-    {
-        maximo=notaTres;
-    }
-
-    printf("El numero maximo es %d",maximo);
-
-    return 0;
+    return retorno;
 
 
 }
