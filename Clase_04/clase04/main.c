@@ -54,12 +54,4 @@ printf("el entero ingresado es : %d",numero);
     return 0;
 }// del main
 
-/** \brief
- *
- * \param mensaje char*
- * \param maximo int
- * \param minimo int
- * \return int
- *
- */
 
