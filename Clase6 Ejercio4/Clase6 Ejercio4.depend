@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523631175 source:d:\sofiacf\clase6 ejercio4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
