@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1523623147 source:d:\sofiacf\clase6\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1523623147 source:d:\sofiacf\clase6\ejercicio 2.c
+	<stdio.h>
+	<stdlib.h>
+
