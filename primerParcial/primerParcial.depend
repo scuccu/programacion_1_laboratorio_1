@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1525445795 source:d:\scf\programacion_1_laboratorio_1-master\primerparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"usuarios.h"
+
+1525440639 d:\scf\programacion_1_laboratorio_1-master\primerparcial\usuarios.h
+
