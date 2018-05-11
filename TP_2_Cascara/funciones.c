@@ -104,7 +104,7 @@ int init(EPersona Persona[],int limite)
 
 int mostrarUno(EPersona persona)
 {
-     printf("\n %c - %d - %d -%d",persona.nombre,persona.edad,persona.estado,persona.dni);
+     printf("\n %s - %d - %d -%d",persona.nombre,persona.edad,persona.estado,persona.dni);
 
 }
 int mostrarPersona(EPersona Persona[],int limite)
@@ -116,7 +116,7 @@ int mostrarPersona(EPersona Persona[],int limite)
         retorno = 0;
         for(i=0; i<limite; i++)
         {
-            if(Persona[i].estado==OCUPADO)
+            if(Persona[i].estado==1)
             {
 
                 mostrarUno(Persona[i]);
