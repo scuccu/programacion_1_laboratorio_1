@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1525998937 source:d:\sophia cuccú~\tec. sup en programacion\programación y laboratorio i\trabajopractico2sofiacf\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+	<ctype.h>
+
+1525998937 d:\sophia cuccú~\tec. sup en programacion\programación y laboratorio i\trabajopractico2sofiacf\tp_2_cascara\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+
+1525999038 source:d:\sophia cuccú~\tec. sup en programacion\programación y laboratorio i\trabajopractico2sofiacf\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
